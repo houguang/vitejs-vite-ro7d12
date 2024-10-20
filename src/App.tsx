@@ -1,3 +1,4 @@
+import { Card } from '@arco-design/web-react';
 import './App.css';
 import { fakerZH_CN as faker } from '@faker-js/faker';
 import { useEffect } from 'react';
@@ -69,7 +70,7 @@ function App() {
     console.log(faker.phone.number(), 123);
   }, []);
 
-  return <>1111</>;
+  return <Card>1111</Card>;
 }
 
 export default App;
